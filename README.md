@@ -21,9 +21,32 @@
 Pour commencer avec EYES GALLERY, suivez ces étapes :
 
 1. Clonez le dépôt.
-2. Installez les dépendances nécessaires avec `npm install`.
-3. Lancez l'application avec `npm run dev`.
-4. Dans le cas ou sa ne fonctionnerais pas => Ouvrer le fichiers dans votre IDE, une fois le fichier dans votre IDE descendez jusqu'au fichiers ##"package.json"##, une fois dans ce fichiers appuyer sur le bouton ##"play de Debug"##, ensuite cliquer sur serve et le projet ce lancera normalement.
+# projet-vue
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+2. Dans le cas ou sa ne fonctionnerais pas => Ouvrer le fichiers dans votre IDE, une fois le fichier dans votre IDE descendez jusqu'au fichiers ##"package.json"##, une fois dans ce fichiers appuyer sur le bouton ##"play de Debug"##, ensuite cliquer sur serve et le projet ce lancera normalement.
  
 
 ## Utilisation
