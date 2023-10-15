@@ -8,13 +8,15 @@
       />
     </div>
     <div class="input-search flex-center">
-      <input
-        v-model="youtubeLink"
-        placeholder="Entrer votre liens..."
-        required
-        class="border border-gray-300 rounded p-2"
-      />
-      <button class="search" @click="handleSubmit">Rechercher</button>
+      <form>
+        <input
+          v-model="youtubeLink"
+          placeholder="Entrer votre liens..."
+          required
+          class="border border-gray-300 rounded p-2"
+        />
+        <button class="search" @click="handleSubmit">Rechercher</button>
+      </form>
     </div>
   </section>
 </template>
